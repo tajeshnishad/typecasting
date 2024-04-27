@@ -1,0 +1,29 @@
+a="1"
+b="3"
+print(a+b)
+print(int(a)+int(b))
+
+
+c=10
+d=5
+print(str(c)+str(d))   # c and d are converted to strings
+
+
+a1=" 1"
+b1="2"
+print(int(a1) +int(b1))
+
+
+string = "20"
+num = 20
+sum=num+int(string)
+print("the sum of both the number is: ", sum)
+
+#implicit typecasting
+c1= 3.0
+d1= 4
+e1=float
+print( c1+d1==e1)
+print("the type of e1 is: ",type(d1))
+print("the type of e1 is: ",type(d1))
+print("the type of e1 is: ",type(e1))
